@@ -1,0 +1,44 @@
+{
+  "name": "react-redux-hoc",
+  "version": "0.0.1",
+  "description": "A React-Redux HOC (Higher Order Component)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir lib",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsteele/react-redux-hoc.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "hoc",
+    "higher",
+    "order",
+    "component"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "Matt Steele <matt@omnionline.us> (http://omnionline.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrsteele/react-redux-hoc/issues"
+  },
+  "homepage": "https://github.com/mrsteele/react-redux-hoc#readme",
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "standard": "^11.0.1"
+  }
+}
